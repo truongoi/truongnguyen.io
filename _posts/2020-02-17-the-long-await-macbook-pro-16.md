@@ -1,5 +1,5 @@
 ---
-title: The long await MacBook Pro 16"
+title: The long await MacBook Pro 16-inches
 description: A special gift from my wife :)
 date: 2020-02-17 18:12 -0800
 featured_image: /images/posts/b6709c57-5276-4b79-acf5-184cd0fcbfee.jpg
@@ -10,4 +10,4 @@ The decision to upgrade from old 2014 MacBook Pro happened since March 2019. But
 
 Nothing much to say, this post is a reminder date of having it in hand. Much love.
 
-![MacBook Pro 16"](/images/posts/b6709c57-5276-4b79-acf5-184cd0fcbfee.jpg "My new MacBook Pro 16\" (late 2019)")
+![MacBook Pro 16-inches](/images/posts/b6709c57-5276-4b79-acf5-184cd0fcbfee.jpg "My new MacBook Pro 16-inches (late 2019)")
