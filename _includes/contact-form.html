@@ -1,0 +1,96 @@
+<div class="contact-form">
+
+	<form method="post" action="{{ site.data.settings.contact_settings.form_action }}" id="contact-form">
+
+		<div class="contact-form__item">
+			<label class="contact-form__label">Email Address *</label>
+			<input type="email" name="email" placeholder="Your email address..." class="contact-form__input" required>
+		</div>
+
+		<div class="contact-form__item">
+			<label class="contact-form__label">Name *</label>
+			<input type="text" name="name" placeholder="Your name..." class="contact-form__input" required>
+		</div>
+
+		<div class="contact-form__item">
+			<label class="contact-form__label">Message *</label>
+			<textarea name="message" placeholder="Your message..." class="contact-form__textarea" required></textarea>
+		</div>
+
+		<input type="hidden" name="_next" value="{{ site.data.settings.contact_settings.confirmation_url }}" />
+		<input type="hidden" name="_subject" value="{{ site.data.settings.contact_settings.email_subject }}" />
+		<input type="text" name="_gotcha" style="display: none;" class="contact-form__gotcha" val="">
+
+		<div class="contact-form__item">
+			<input type="submit" id="contact-form-button" value="{{ site.data.settings.contact_settings.send_button_text }}" class="button button--large">
+		</div>
+
+		<span id="contact-form-status"></span>
+
+	</form>
+
+</div>
+
+<script>
+  window.addEventListener("DOMContentLoaded", function() {
+
+    // get the form elements defined in your form HTML above
+    var form = document.getElementById("contact-form");
+    var button = document.getElementById("contact-form-button");
+    var status = document.getElementById("contact-form-status");
+
+    // Check form inputs
+    function checkform(_form) {
+      // get all the inputs within the submitted form
+      var inputs = _form.elements;
+      for (var i = 0; i < inputs.length; i++) {
+        // only validate the inputs that have the required attribute
+        if(inputs[i].hasAttribute("required")){
+          if(inputs[i].value == ""){
+            // found an empty field that is required
+            alert("Please fill all required fields");
+            return false;
+          }
+        }
+      }
+      return true;
+    }
+
+    // Success and Error functions for after the form is submitted
+    function success() {
+      form.reset();
+      button.style = "display: none ";
+      status.innerHTML = "Message sent! I'll reply ASAP. Thank you!";
+    }
+
+    function error() {
+      status.innerHTML = "Oops! There was a problem.";
+    }
+
+    // handle the form submission event
+    form.addEventListener("submit", function(ev) {
+      ev.preventDefault();
+	    if (checkform(form)) {
+	      var data = new FormData(form);
+	      ajax(form.method, form.action, data, success, error);
+	    }
+    });
+  });
+
+  // helper function for sending an AJAX request
+
+  function ajax(method, url, data, success, error) {
+    var xhr = new XMLHttpRequest();
+    xhr.open(method, url);
+    xhr.setRequestHeader("Accept", "application/json");
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState !== XMLHttpRequest.DONE) return;
+      if (xhr.status === 200) {
+        success(xhr.response, xhr.responseType);
+      } else {
+        error(xhr.status, xhr.response, xhr.responseType);
+      }
+    };
+    xhr.send(data);
+  }
+</script>
