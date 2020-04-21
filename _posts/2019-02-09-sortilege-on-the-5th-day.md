@@ -1,12 +1,11 @@
 ---
-title: Sortilege on the 5th day
-description: ""
+title: Quẻ xăm cho ngày mồng năm
+description: "Mồng 5 năm nay 2019, mình có dịp đi Chùa Ông xin xăm và được gieo cho quẻ xăm số 92."
 date: 2019-02-09 2 PM:47:08 +0659
-featured_image: /images/og-image.jpg
+featured_image: /images/posts/xin-xam.jpg
 ---
 
-On the 5th day of Lunar New Year 2019, I went to Chùa Ông and got the number 92.
-Pardon the sortilege in Vietnamese.
+Mồng 5 năm nay 2019, mình có dịp đi Chùa Ông xin xăm và được gieo cho quẻ xăm số 92.
 
 ---
 SỐ 092 - HẠ HẠ

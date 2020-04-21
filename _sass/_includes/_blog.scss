@@ -78,7 +78,7 @@
 
 	@include mq(tabletp) {
 		text-align: center;
-		padding: 0;
+		padding: 0 30px;
 		font-size: $grid-item-title-medium;
 	}
 

@@ -48,8 +48,9 @@ sass:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-compress-images
 
-paginate: 6
+paginate: 10
 paginate_path: "/blog/page:num/"
 
 gallery_types:
@@ -59,3 +60,13 @@ grid_columns:
   two: Two
   three: Three
   four: Four
+
+compress_images:
+  images_path: "/images/posts/*.{gif,png,jpg,jpeg,svg}"
+
+imageoptim:
+  svgo: false
+
+exclude:
+  - vendor
+  - _compress_images_cache.yml

@@ -2,8 +2,10 @@
 title: 'The love for Jekyll'
 description: 'Everything you need to install and run Jekyll on your Mac are absolute free'
 date: 2015-04-15
-featured_image: /images/og-image.jpg
+featured_image: /images/posts/jekyll.jpg
 ---
+
+Updated 03/20/2020: moved to Netlify to use Netlify CMS.
 
 ### Free - Open source
 Everything you need to install and run Jekyll on your Mac are absolute free: Ruby and Jekyll itself. When deploying it onto the Internet, look no further: [Github.io](http://github.io)
