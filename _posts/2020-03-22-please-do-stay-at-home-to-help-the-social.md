@@ -8,4 +8,4 @@ Impossible to make some people understand how important this is.
 
 Take a look at the node, each node represent a person and one node maintain the social distancing will help the spread of covid-19 a lot.
 
-![The spread of virus](/images/posts/90708736_2803506503018919_2883434519031971840_n.jpg "Social distancing helps prevent the spread of virus.")
+![The spread of virus](/images/posts/corona-virus-spread.gif "Social distancing helps prevent the spread of virus.")
