@@ -68,5 +68,6 @@ imageoptim:
   svgo: false
 
 exclude:
+  - config.codekit3
   - vendor
   - _compress_images_cache.yml

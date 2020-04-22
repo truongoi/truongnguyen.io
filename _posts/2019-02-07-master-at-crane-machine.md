@@ -8,4 +8,4 @@ featured_image: /images/posts/gap-thu.jpeg
 This is the result of crane machine picking within 30 minutes.
 How wonderful those are!
 
-![](/images/posts/gap-thu.jpeg)
+![](/images/posts/gap-thu.jpeg "Full collection of stuff animals :x")

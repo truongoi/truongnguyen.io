@@ -8,13 +8,13 @@
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Plugins
 
-// @codekit-prepend "/plugins/history.js"
-// @codekit-prepend "/plugins/imagesloaded.js"
-// @codekit-prepend "/plugins/masonry.js"
-// @codekit-prepend "/plugins/debounce.js"
-// @codekit-prepend "/plugins/fluidbox.js"
-// @codekit-prepend "/plugins/owl.js"
-// @codekit-prepend "/plugins/waypoints.js"
+// @codekit-prepend "plugins/history.js"
+// @codekit-prepend "plugins/imagesloaded.js"
+// @codekit-prepend "plugins/masonry.js"
+// @codekit-prepend "plugins/debounce.js"
+// @codekit-prepend "plugins/fluidbox.js"
+// @codekit-prepend "plugins/owl.js"
+// @codekit-prepend "plugins/waypoints.js"
 
 
 
@@ -339,7 +339,12 @@
 		$('.single p > img').each( function() {
 			var thisP = $(this).parent('p');
 			$(this).insertAfter(thisP);
+			console.log($(this))
 			$(this).wrapAll('<div class="image-wrap"></div>');
+			console.log($(this).attr('title'))
+			if ($(this).attr('title') != undefined) {
+				$(this).parent('.image-wrap').append('<p class="image-caption">' + $(this).attr('title') + '</p');
+			}
 			thisP.remove();
 		});
 
