@@ -9,6 +9,8 @@ Vô tình đọc được bài cảm nhận của một **người Hà Nội** v
 
 **Bài viết thật hay và đúng như những gì anh ta cảm nhận.**
 
+![Người Sài Gòn](/images/posts/saigon.jpg)
+
 **Sài Gòn:**
 
 Tôi bước chân xuống Tân Sơn Nhất lần đầu cũng đã lâu. Đi taxi về công ty tôi – đường phố đông đúc nhưng mọi người đi có thứ tự. Những tòa nhà cao ốc be bé nằm sát nhau trên đường Nguyễn Văn Trỗi – Nam Kỳ khiến tôi nghĩ Sài Gòn thật xô bồ, lộn xộn. Thế mà từ đó đến giờ đã yêu mất Sài Gòn và người Sài Gòn.
