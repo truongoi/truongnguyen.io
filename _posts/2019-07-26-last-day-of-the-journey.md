@@ -11,4 +11,4 @@ Today marked my last day of working at Ogilvy Vietnam. Good things and bad thing
 
 Goodbye Ogilvy, so long.
 
-![](/images/posts/ogilvy.jpg)
+![](/images/posts/ogilvy.jpg "The old Ogilvy logo")

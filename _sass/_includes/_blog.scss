@@ -39,17 +39,31 @@
 	width: 100%;
 	overflow: hidden;
 	max-height: 140px;
+	position: relative;
 	img {
 		width: 100%;
 		object-fit: cover;
 		max-height: 140px;
 		min-height: 110px;
 	}
+	&::before {
+		display: block;
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(0, 0, 0, 0.35);
+	}
 
 	@include mq(tabletp) {
 		max-height: 440px;
 		img {
 			max-height: 440px;
+		}
+		&::before {
+			display: none;
 		}
 	}
 }

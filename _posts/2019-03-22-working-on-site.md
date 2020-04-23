@@ -9,6 +9,12 @@ Started Lunar New Year with an on-site trip for almost a month. This is the long
 
 Not same as pervious times with developer role, this time the client wanted me to be Developer Lead to lead several other developers which means more responsibility to me.
 
-And yes of course, I had to take part in some other things that I rarely put my hands in before. But in return, those are very good chances for me to improve myself as well as my skills. This is absolutely correct to the quote **"It always seems impossible until it's done"** of _Nelson Mandela_ (Former President of South Africa). Things when heard at the first time always seem to be difficult but not until you start working on them, figure out how to resolve them, along with help from fellow colleagues, things will become easier :)
+And yes of course, I had to take part in some other things that I rarely put my hands in before. But in return, those are very good chances for me to improve myself as well as my skills. This is absolutely correct to the quote:
+
+> "It always seems impossible until it's done."
+>
+> – <cite>Nelson Mandela (Former President of South Africa)</cite>
+
+Things when heard at the first time always seem to be difficult but not until you start working on them, figure out how to resolve them, along with help from fellow colleagues, things will become easier 😊
 
 ![nelson-mandela-quote.jpg]({{site.baseurl}}/images/posts/nelson-mandela-quote.jpg "A quote from Nelson Mandela")
