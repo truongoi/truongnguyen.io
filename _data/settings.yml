@@ -1,6 +1,7 @@
 basic_settings:
   site_title: truongnguyen.io
   favicon_image: /images/favicon.png
+  codepen_username: truongoi
 
 header_settings:
   logo_image: /images/logo.png

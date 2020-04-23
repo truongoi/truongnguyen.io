@@ -7,6 +7,4 @@ featured_image: /images/posts/codepen.jpg
 
 A pen of CSS-only burger menu animation
 
-<div class="wrapper">
-  {% codepen https://codepen.io/truongoi/pen/QEJGyV %}
-</div>
+{% include codepen.html hash="QEJGyV" title="CSS-only burger menu animation" %}

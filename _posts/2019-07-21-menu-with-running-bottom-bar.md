@@ -7,6 +7,4 @@ featured_image: /images/posts/codepen.jpg
 
 A pen of menu with running bottom bar
 
-<div class="wrapper">
-  {% codepen https://codepen.io/truongoi/pen/OXmXwx %}
-</div>
+{% include codepen.html hash="OXmXwx" title="Menu with running bottom bar" %}

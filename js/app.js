@@ -369,6 +369,16 @@
 
 		});
 
+		// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Codepen
+
+		if ($('.codepen').length) {
+			var s = document.createElement("script");
+			s.type = "text/javascript";
+			s.setAttribute('async', '');
+			s.src = "https://static.codepen.io/assets/embed/ei.js";
+			$("body").append(s);
+		}
+
 	}
 
 	// Run functions on load

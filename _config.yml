@@ -71,9 +71,3 @@ exclude:
   - config.codekit3
   - vendor
   - _compress_images_cache.yml
-
-codepen:
-  theme: 11473
-  height: 300
-  preview: false
-  default_tab: result
