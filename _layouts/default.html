@@ -41,16 +41,26 @@
 	<title>{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}</title>
 	<meta name="description" content="{{ page.description }}">
 
+	{% if page.is_post %}
+	  {% assign page_type = "article" %}
+	{% else %}
+	  {% assign page_type = "website" %}
+	{% endif %}
+
 	<!-- Twitter Card -->
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:title" content="{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}">
+	<meta name="twitter:title" content="{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}{% else %}{{ page.title }}{% endif %}">
 	<meta name="twitter:description" content="{{ page.description }}">
 	<meta name="twitter:image:src" content="{{ site.url }}{{ page.featured_image }}">
+	<meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
 
 	<!-- Facebook OpenGraph -->
-	<meta property="og:title" content="{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}" />
+	<meta property="og:type" content="{{ page_type }}" />
+	<meta property="og:site_name" content="{{ site.data.settings.basic_settings.site_title }}" />
+	<meta property="og:title" content="{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}{% else %}{{ page.title }}{% endif %}" />
 	<meta property="og:description" content="{{ page.description }}" />
 	<meta property="og:image" content="{{ site.url }}{{ page.featured_image }}" />
+	<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
 
 	{% if site.data.settings.font_settings.font_embed %}
 	<!-- Font Embed Code -->
