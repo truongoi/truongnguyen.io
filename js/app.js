@@ -8,6 +8,7 @@
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Plugins
 
+// @codekit-prepend "plugins/modernizr-custom.js"
 // @codekit-prepend "plugins/history.js"
 // @codekit-prepend "plugins/imagesloaded.js"
 // @codekit-prepend "plugins/masonry.js"
