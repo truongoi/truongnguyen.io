@@ -10,4 +10,4 @@ Take a look at the node, each node represent a person and one node maintain the 
 
 ![The spread of virus](/images/posts/corona-virus-spread.gif "Social distancing helps prevent the spread of virus.")
 
-Impossible to make some people understand how important this is. Please do stay at home to help the social
+Impossible to make some people understand how important this is. Please do stay at home to help the social.

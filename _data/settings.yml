@@ -20,8 +20,8 @@ menu_settings:
       url: '/contact'
 
 footer_settings:
-  logo_image:
-  logo_width: 200
+  logo_image: /images/logo.png
+  logo_width: 25
   footer_tagline: Made with <span class="heart">❤</span> using <a href="https://jekyllrb.com" target="_blank">Jekyll</a>.
 
 grid_settings:
@@ -30,7 +30,6 @@ grid_settings:
 
 contact_settings:
   form_action: 'https://formspree.io/xrgawwgw'
-  confirmation_url: '/thanks'
   email_subject: 'Hello from truongnguyen.io'
   send_button_text: 'Send Message'
 
