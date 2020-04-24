@@ -339,9 +339,7 @@
 		$('.single p > img').each( function() {
 			var thisP = $(this).parent('p');
 			$(this).insertAfter(thisP);
-			console.log($(this))
 			$(this).wrapAll('<div class="image-wrap"></div>');
-			console.log($(this).attr('title'))
 			if ($(this).attr('title') != undefined) {
 				$(this).parent('.image-wrap').append('<p class="image-caption">' + $(this).attr('title') + '</p');
 			}
