@@ -2,6 +2,7 @@ basic_settings:
   site_title: truongnguyen.io
   favicon_image: /images/favicon.png
   codepen_username: truongoi
+  fb_app_id: 628251094221206
 
 header_settings:
   logo_image: /images/logo.png
