@@ -1,6 +1,8 @@
 @media (max-width: 799px) {
 	.css-u4olba-SidebarContainer-card {
-		display: none;
+		position: static;
+    width: 100%;
+    margin-bottom: 30px;
 	}
 	.css-v758ki-AppMainContainer, .css-12b66la-AppHeaderContent {
 		min-width: 0;
@@ -19,6 +21,7 @@
   /* Media */
   .css-1f3mf5k-StyledModal {
   	padding: 15px;
+    grid-template-rows: 190px auto;
   }
   .css-svjxk-SearchContainer {
   	display: block;
@@ -33,23 +36,33 @@
 	.css-1ih1y1j-LibraryTitle {
 		margin-bottom: 15px;
 	}
+  .css-2ptjc9-UpperActionsContainer {
+    display: inline-block;
+  }
+  .css-1qukh7n-DownloadButton-button-default-disabled-button {
+    margin-left: 0;
+    font-size: 11px;
+  }
+  .css-13rmovq-StyledUploadButton-button-default-disabled-button-gray span {
+    font-size: 11px;
+  }
 	.css-13rmovq-StyledUploadButton-button-default-disabled-button-gray {
 		margin-top: 5px;
 	}
 	.css-1hpjyse-DeleteButton-button-default-disabled-button-lightRed {
 		padding: 0 5px;
-	  font-size: 12px;
+	  font-size: 11px;
 	  line-height: 1.1;
 	}
 	.css-16796rj-LowerActionsContainer {
 		display: inline-block;
-		margin-top: 10px;
+    margin-top: 0;
 	}
 	.css-stmjdx-CardGridContainer  {
 		position: static;
 	  overflow: visible;
 	  width: 100%;
-	  margin-top: 25px;
+    padding-top: 20px;
 	}
 	/* End Media */
 
