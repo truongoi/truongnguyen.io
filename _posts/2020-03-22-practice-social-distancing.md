@@ -1,9 +1,9 @@
 ---
 title: Practice social distancing
 description: So that you can help prevent the spread of covid-19
-date: 2020-03-22T20:54:04.034Z
 featured_image: /images/posts/social-distancing.jpg
-comments: false
+date: 2020-03-22T20:54:04.034Z
+comments: true
 ---
 
 Take a look at the node, each node represent a person and one node maintain the social distancing will help the spread of covid-19 a lot.
