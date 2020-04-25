@@ -241,8 +241,8 @@
 }
 
 .wrapper {
-	padding: 0 10px;
 	margin: 40px auto;
+	padding: 0 10px;
 
 	> * {
 		margin-left: auto !important;
@@ -252,6 +252,24 @@
 	@include mq(tabletp) {
 		padding: 0;
 		max-width: 80%;
+	}
+}
+
+.wrapper-33 {
+	@include mq(tabletp) {
+		max-width: 50%;
+	}
+}
+
+.wrapper-50 {
+	@include mq(tabletp) {
+		max-width: 50%;
+	}
+}
+
+.wrapper-66 {
+	@include mq(tabletp) {
+		max-width: 50%;
 	}
 }
 
@@ -273,4 +291,9 @@
 	@include mq(laptop) {
 	  max-width: 60%;
 	}
+}
+
+code {
+	background: #f0f0f0;
+  padding: 3px 5px;
 }

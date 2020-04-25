@@ -4,19 +4,32 @@ description: Netlify CMS mobile responsive CSS
 date: 2020-04-16T21:10:10.968Z
 featured_image: /images/posts/netlify-cms.jpg
 ---
-So far I've been waiting so long for the Netlify CMS to be working on mobile devices so I wrote my own piece of CSS as below. Add it to your Netlify `/admin/index.html` file if you want 💁🏻.
+So far I've been waiting so long for the Netlify CMS to be working on mobile devices so I wrote my own piece of CSS as below. Add it to your Netlify `/admin/index.html` file and below the closing `</body>` tag so it can overwrite the netlify-generated css.
+
+
+
+Screenshots for your reference:
+
+<div class="wrapper wrapper-50">
+  <div class="gallery" data-columns="1">
+    <img src="/images/posts/truongnguyen.io_admin_(iPhone 6_7_8).png">
+    <img src="/images/posts/truongnguyen.io_admin_(iPhone 6_7_8) (1).png">
+    <img src="/images/posts/truongnguyen.io_admin_(iPhone 6_7_8) (2).png">
+    <img src="/images/posts/truongnguyen.io_admin_(iPhone 6_7_8) (3).png">
+  </div>
+</div>
 
 ```css
 @media (max-width: 799px) {
   .css-u4olba-SidebarContainer-card {
-    display: none;
+    position: static;
+    width: 100%;
+    margin-bottom: 30px;
   }
-  .css-v758ki-AppMainContainer,
-  .css-12b66la-AppHeaderContent {
+  .css-v758ki-AppMainContainer, .css-12b66la-AppHeaderContent {
     min-width: 0;
   }
-  .css-104dqk8-AppHeaderButton-button-buttonActive-buttonActive-buttonActive-buttonActive-AppHeaderButton,
-  .css-12yqrwa-AppHeaderNavLink-AppHeaderButton-button-buttonActive-buttonActive-buttonActive-buttonActive-AppHeaderButton {
+  .css-104dqk8-AppHeaderButton-button-buttonActive-buttonActive-buttonActive-buttonActive-AppHeaderButton, .css-12yqrwa-AppHeaderNavLink-AppHeaderButton-button-buttonActive-buttonActive-buttonActive-buttonActive-AppHeaderButton {
     margin: 0;
     padding: 16px 7px;
   }
@@ -26,9 +39,18 @@ So far I've been waiting so long for the Netlify CMS to be working on mobile dev
   .css-1hvrgvd-CollectionTopContainer-card-cardTop {
     width: 100%;
   }
+  .css-16b5p1f-ToolbarSectionMain-toolbarSection {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .css-1bqupl5-ViewControls {
+    display: none;
+  }
+
   /* Media */
   .css-1f3mf5k-StyledModal {
     padding: 15px;
+    grid-template-rows: 190px auto;
   }
   .css-svjxk-SearchContainer {
     display: block;
@@ -43,25 +65,37 @@ So far I've been waiting so long for the Netlify CMS to be working on mobile dev
   .css-1ih1y1j-LibraryTitle {
     margin-bottom: 15px;
   }
+  .css-2ptjc9-UpperActionsContainer {
+    display: inline-block;
+  }
+  .css-1qukh7n-DownloadButton-button-default-disabled-button {
+    margin-left: 0;
+    margin-right: 0;
+  }
   .css-13rmovq-StyledUploadButton-button-default-disabled-button-gray {
-    margin-top: 5px;
+    margin-left: 10px;
   }
   .css-1hpjyse-DeleteButton-button-default-disabled-button-lightRed {
-    padding: 0 5px;
-    font-size: 12px;
-    line-height: 1.1;
+    margin-top: 10px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .css-1s67tkf-InsertButton-button-default-disabled-button-green {
+    margin-top: 10px;
+    margin-left: 10px;
   }
   .css-16796rj-LowerActionsContainer {
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 0;
   }
-  .css-stmjdx-CardGridContainer {
+  .css-stmjdx-CardGridContainer  {
     position: static;
     overflow: visible;
     width: 100%;
-    margin-top: 25px;
+    padding-top: 20px;
   }
   /* End Media */
+
   /* Blog */
   .css-hn3jn7-EditorContainer {
     min-width: 0;
