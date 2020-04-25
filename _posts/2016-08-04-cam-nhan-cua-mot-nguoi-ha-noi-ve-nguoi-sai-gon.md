@@ -5,7 +5,6 @@ description: Vô tình đọc được bài cảm nhận của một người H�
 featured_image: /images/posts/saigon.jpg
 date: 2016-08-04T00:00:00.000Z
 ---
-
 Vô tình đọc được bài cảm nhận của một **người Hà Nội** viết về **người Sài Gòn** sau một thời gian anh ta ở đây. Ban đầu anh ta thấy Sài gòn thật xô bồ, chật chội. Nhưng khi gắn bó ở đây một thời gian, anh ta yêu Sài Gòn lúc nào không hay biết.
 
 **Bài viết thật hay và đúng như những gì anh ta cảm nhận.**
@@ -28,7 +27,7 @@ Tôi bước chân xuống Tân Sơn Nhất lần đầu cũng đã lâu. Đi ta
 
 **Người Sài Gòn** yêu nhau cũng lạ, không cần phô trương, thương là đến với nhau. Quen nhau từ bàn nhậu, quen nhau ở quán cafe, quen nhau trong thang máy... cứ thích là nhích thôi. Người ta thương nhau, về với nhau là để thế giới bớt đi hai người cô đơn (thế mà anh vẫn cô đơn thế này). Yêu Gái Sài Gòn không cần phải tỏ tình, cứ rủ đi cafe vài bữa, cho nắm tay, đi xem phim cho thơm, thế là thành bà xã... Tình yêu cũng có hợp tan, nếu hết thương nhau thì lại nhậu, cafe, xem phim... và thêm một mối tình mới.
 
-**...Cuối cùng, người Sài Gòn là gọi chung cho những người sống ở Sài Gòn, người Sài Gòn gốc thì bị Nguyễn Ánh chiếm đất đuổi đi, người Sài Gòn xưa thì đang sống ở Cali và Sài Gòn giờ toàn người Hà Nội , người... ...**
+**Cuối cùng, người Sài Gòn là gọi chung cho những người sống ở Sài Gòn, người Sài Gòn gốc thì bị Nguyễn Ánh chiếm đất đuổi đi, người Sài Gòn xưa thì đang sống ở Cali và Sài Gòn giờ toàn người Hà Nội...**
 
 PHAN NGUYÊN LUÂN
 
