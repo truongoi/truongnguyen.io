@@ -17,6 +17,10 @@
   .css-1hvrgvd-CollectionTopContainer-card-cardTop {
     width: 100%;
   }
+  .css-16b5p1f-ToolbarSectionMain-toolbarSection {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
 
   /* Media */
   .css-1f3mf5k-StyledModal {
