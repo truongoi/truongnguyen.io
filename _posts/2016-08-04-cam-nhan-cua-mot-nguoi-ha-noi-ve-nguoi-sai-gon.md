@@ -1,8 +1,9 @@
 ---
-title: 'Cảm nhận của một người Hà Nội về người Sài Gòn'
-description: 'Vô tình đọc được bài cảm nhận của một người Hà Nội viết về người Sài Gòn sau một thời gian anh ta ở đây.'
-date: 2016-08-04
+title: Cảm nhận của một người Hà Nội về người Sài Gòn
+description: Vô tình đọc được bài cảm nhận của một người Hà Nội viết về người
+  Sài Gòn sau một thời gian anh ta ở đây.
 featured_image: /images/posts/saigon.jpg
+date: 2016-08-04T00:00:00.000Z
 ---
 
 Vô tình đọc được bài cảm nhận của một **người Hà Nội** viết về **người Sài Gòn** sau một thời gian anh ta ở đây. Ban đầu anh ta thấy Sài gòn thật xô bồ, chật chội. Nhưng khi gắn bó ở đây một thời gian, anh ta yêu Sài Gòn lúc nào không hay biết.
