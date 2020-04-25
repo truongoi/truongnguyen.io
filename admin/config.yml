@@ -16,8 +16,8 @@ collections:
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Featured Image", name: "featured_image", widget: "image", default: "/images/og-image.jpg"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Publish?", name: "published", widget: "boolean", default: true}
-      - {label: "Enable comments?", name: "comments", widget: "boolean", default: true}
+      - {label: "Publish?", name: "published", widget: "boolean", default: true, required: false}
+      - {label: "Enable comments?", name: "comments", widget: "boolean", default: true, required: false}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "page" # Used in routes, e.g., /admin/collections/blog
     label: "Page" # Used in the UI
@@ -31,6 +31,6 @@ collections:
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Featured Image", name: "featured_image", widget: "image", default: "/images/og-image.jpg"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Publish?", name: "published", widget: "boolean", default: true}
-      - {label: "Enable comments?", name: "comments", widget: "boolean", default: true}
+      - {label: "Publish?", name: "published", widget: "boolean", default: true, required: false}
+      - {label: "Enable comments?", name: "comments", widget: "boolean", default: true, required: false}
       - {label: "Body", name: "body", widget: "markdown"}
