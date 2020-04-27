@@ -1,9 +1,11 @@
 ---
 title: Privacy Policy
-permalink: /privacy-policy/
 description: Privacy policy page
+featured_image: /images/posts/default.jpg
 keywords: privacy policy, page
+permalink: /privacy-policy/
 date: 2020-01-06T23:46:02.658Z
+published: true
 cover: /images/og-image.jpg
 ---
 
