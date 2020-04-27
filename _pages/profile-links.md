@@ -1,9 +1,11 @@
 ---
 title: Profile links
-permalink: /links/
 description: This page list all personal links
+featured_image: /images/posts/default.jpg
 keywords: links, page
+permalink: /links/
 date: 2020-01-01T23:46:02.658Z
+published: true
 cover: /assets/images/og-image.jpg
 ---
 
