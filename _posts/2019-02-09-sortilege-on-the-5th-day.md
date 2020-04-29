@@ -4,6 +4,8 @@ description: Mồng 5 năm nay 2019, mình có dịp đi Chùa Ông xin xăm và
   cho quẻ xăm số 92.
 featured_image: /images/posts/xin-xam.jpg
 date: 2019-02-09 2 PM:47:08 +0659
+published: true
+comments: true
 ---
 
 Mồng 5 năm nay 2019, mình có dịp đi Chùa Ông xin xăm và được gieo cho quẻ xăm số 92.

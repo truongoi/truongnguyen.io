@@ -3,6 +3,8 @@ title: Netlify CMS mobile responsive CSS
 description: Netlify CMS mobile responsive CSS
 featured_image: /images/posts/netlify-cms.jpg
 date: 2020-04-16T21:10:10.968Z
+published: true
+comments: true
 ---
 So far I've been waiting so long for the Netlify CMS to be working on mobile devices so I wrote my own piece of CSS as below. Add it to your Netlify `/admin/index.html` file and below the closing `</body>` tag so it can overwrite the netlify-generated css.
 

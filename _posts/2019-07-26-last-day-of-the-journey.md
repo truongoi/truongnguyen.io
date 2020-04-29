@@ -3,6 +3,8 @@ title: Last day of the journey
 description: Free like a bird
 date: '2019-07-26 16:31 +0700'
 featured_image: /images/posts/ogilvy.jpg
+published: true
+comments: true
 ---
 
 "What's coming will come and we'll just have to meet it when it does." - J. K. Rowling

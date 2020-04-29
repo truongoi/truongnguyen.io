@@ -3,8 +3,10 @@ title: "[VN] Lựa chọn đúng"
 description: Bóng bay gặp xương rồng. Bén duyên và về ở với nhau.
 featured_image: /images/posts/lua-chon-dung.jpg
 date: Wed Feb 20 2019 20:10:00 GMT+0700 (Indochina Time)
+published: true
+comments: true
 ---
-![](/images/posts/lua-chon-dung.jpg) 
+![](/images/posts/lua-chon-dung.jpg)
 
 Bóng bay gặp xương rồng. Bén duyên và về ở với nhau.
 

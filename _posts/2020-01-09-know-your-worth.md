@@ -3,6 +3,8 @@ title: Know your worth
 description: Know your worth and stop giving people discounts
 date: 2020-01-09 16:13 +0700
 featured_image: /images/posts/know-your-worth.jpg
+published: true
+comments: true
 ---
 
 Before a father died said to his son: “This is a watch your grandfather gave me and is more than 200 years old. But before I give it to you, go to the watch shop on the first street and tell him I want to sell it and see how much he offers you”!

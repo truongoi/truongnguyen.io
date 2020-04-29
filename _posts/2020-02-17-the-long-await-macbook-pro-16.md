@@ -3,6 +3,8 @@ title: The long await MacBook Pro 16-inches
 description: A special gift from my wife
 date: 2020-02-17 18:12 -0800
 featured_image: /images/posts/b6709c57-5276-4b79-acf5-184cd0fcbfee.jpg
+published: true
+comments: true
 ---
 Today marks the date when I hand on my new MacBook Pro! It is a generous gift from my wife which has been preparing throughout last full year.
 

@@ -3,6 +3,8 @@ title: Working on-site
 description: Started Lunar New Year with an on-site trip for almost a month.
 date: 2019-03-22
 featured_image: /images/posts/nelson-mandela-quote.jpg
+published: true
+comments: true
 ---
 
 Started Lunar New Year with an on-site trip for almost a month. This is the longest business trip in the last 3 years (previously took around 12 days per trip). This time, I worked with a whole new team, whole new way of working and experienced more challenges and difficulties.

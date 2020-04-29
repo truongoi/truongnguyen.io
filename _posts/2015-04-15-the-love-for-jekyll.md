@@ -3,6 +3,8 @@ title: 'The love for Jekyll'
 description: 'Everything you need to install and run Jekyll on your Mac are absolute free'
 date: 2015-04-15
 featured_image: /images/posts/jekyll.jpg
+published: true
+comments: true
 ---
 
 Updated 03/20/2020: moved to Netlify to use Netlify CMS.
