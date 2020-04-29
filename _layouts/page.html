@@ -18,3 +18,7 @@ layout: default
 	{{ page.content }}
 
 </section>
+
+{% if site.disqus.shortname %}
+  {% include disqus_comments.html %}
+{% endif %}
