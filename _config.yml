@@ -91,3 +91,13 @@ exclude:
   - config.codekit3
   - vendor
   - _compress_images_cache.yml
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: [html, head, body]

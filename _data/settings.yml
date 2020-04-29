@@ -166,7 +166,8 @@ font_settings:
 
 advanced_settings:
   ajax_loading: true
-  analytics_code: "" # to be update
+  analytics_enable: false
+  analytics_code: "UA-57497004-1"
   custom_styles: ""
   header_js: ""
   footer_js: ""
