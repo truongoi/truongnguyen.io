@@ -1,5 +1,5 @@
 ---
-title: Người Việt là một sắc dân lạ lùng
+title: "[VN] Người Việt là một sắc dân lạ lùng"
 description: Sống ở những nơi xa, theo lẽ thường, đồng hương sẽ nâng đỡ nhau lắm.
 featured_image: /images/posts/vietnam-ruong-bac-thang.jpg
 date: 2019-07-05 20:01 +0700
