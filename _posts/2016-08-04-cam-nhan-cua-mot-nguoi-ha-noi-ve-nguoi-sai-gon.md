@@ -3,6 +3,8 @@ title: "[vn] Cảm nhận của một người Hà Nội về người Sài Gò
 description: Vô tình đọc được bài cảm nhận của một người Hà Nội viết về người
   Sài Gòn sau một thời gian anh ta ở đây.
 featured_image: /images/posts/saigon.jpg
+tags:
+  - writing
 date: 2016-08-04T00:00:00.000Z
 published: true
 comments: true
