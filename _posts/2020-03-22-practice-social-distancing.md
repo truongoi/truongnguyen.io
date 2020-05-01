@@ -2,6 +2,10 @@
 title: Practice social distancing
 description: So that you can help prevent the spread of covid-19
 featured_image: /images/posts/social-distancing.jpg
+tags:
+  - corona-virus
+  - covid-19
+  - social-distancing
 date: 2020-03-22T20:54:04.034Z
 published: true
 comments: true
