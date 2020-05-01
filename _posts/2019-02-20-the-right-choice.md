@@ -1,5 +1,5 @@
 ---
-title: "[VN] Lựa chọn đúng"
+title: "[vn] Lựa chọn đúng"
 description: Bóng bay gặp xương rồng. Bén duyên và về ở với nhau.
 featured_image: /images/posts/lua-chon-dung.jpg
 date: Wed Feb 20 2019 20:10:00 GMT+0700 (Indochina Time)
