@@ -6,7 +6,7 @@ layout: default
 
   <div class="wrap">
 
-    <h1>Tag: #{{page.tag}}</h1>
+    <h1>Tag:</h1>
     <p>{{ page.date | date_to_long_string }}</p>
 
   </div>
@@ -15,12 +15,8 @@ layout: default
 
 <section class="single">
 
-  <ul>
-    {% for post in site.posts %}
-    {% if post.tags contains page.tag %}
-    <li><a class="post" href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endif %}
-    {% endfor %}
-  </ul>
+  <p class='cloud'>
+    {% tag_cloud font-size: 90 - 180% %}
+  </p>
 
 </section>
