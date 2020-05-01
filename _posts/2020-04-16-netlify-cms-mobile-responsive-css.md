@@ -2,6 +2,11 @@
 title: Netlify CMS mobile responsive CSS
 description: Netlify CMS mobile responsive CSS
 featured_image: /images/posts/netlify-cms.jpg
+tags:
+  - coding
+  - netlify
+  - cms
+  - css
 date: 2020-04-16T21:10:10.968Z
 published: true
 comments: true
