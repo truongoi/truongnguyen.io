@@ -298,3 +298,11 @@ code {
   padding: 3px 5px;
   color: $accent-color;
 }
+
+.tag-list {
+	display: block;
+	@include mq(tabletp) {
+		display: inline-block;
+		margin-left: 20px;
+	}
+}
