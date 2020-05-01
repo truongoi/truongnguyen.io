@@ -1,8 +1,14 @@
 ---
-title: '[vn] Working copy'
-description: 'Test bài viết từ Working Copy app trên iPhone'
-date: 2018-06-23
+title: "[vn] Working copy"
+description: Test bài viết từ Working Copy app trên iPhone
 featured_image: /images/posts/co-ba-cafe.jpeg
+tags:
+  - iphone
+  - github
+  - working-copy
+  - blog
+  - jekyll
+date: 2018-06-23T00:00:00.000Z
 published: true
 comments: true
 ---
