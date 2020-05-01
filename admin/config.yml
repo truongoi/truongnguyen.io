@@ -13,7 +13,7 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Description", name: "description", widget: "text"}
       - {label: "Featured Image", name: "featured_image", widget: "image", default: "/images/og-image.jpg"}
       - {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: "Link", name: "permalink", widget: "string", required: false}
@@ -29,7 +29,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       # - {label: "Layout", name: "layout", widget: "select", options: ["blank", "default", "page"], default: ["page"]}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Description", name: "description", widget: "text"}
       - {label: "Featured Image", name: "featured_image", widget: "image", default: "/images/og-image.jpg"}
       - {label: "Link", name: "permalink", widget: "string", required: false}
       - {label: "Publish Date", name: "date", widget: "datetime"}
