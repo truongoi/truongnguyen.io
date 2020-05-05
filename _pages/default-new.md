@@ -1,6 +1,5 @@
 ---
-layout:
-  - page
+layout: page
 title: default-new
 description: df
 featured_image: /images/og-image.jpg
