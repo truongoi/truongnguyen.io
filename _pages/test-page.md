@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blank
 title: Test page
 description: test page
 featured_image: /images/og-image.jpg
