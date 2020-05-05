@@ -1,4 +1,5 @@
 ---
+layout: blank
 title: Profile links
 description: This page list all personal links
 featured_image: /images/posts/default.jpg
