@@ -30,7 +30,7 @@ collections:
       - label: "Layout"
         name: "layout"
         widget: "select"
-        default: ["page"]
+        default: "page"
         options: 
           - { label: "Default", value: "page" }
           - { label: "Blank", value: "blank" }
