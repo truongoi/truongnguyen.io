@@ -17,7 +17,7 @@ So far I've been waiting so long for the Netlify CMS to be working on mobile dev
 
 Screenshots for your reference:
 
-<div class="wrapper wrapper-50">
+<div class="wrapper wrapper-33">
   <div class="gallery" data-columns="1">
     <img src="/images/posts/truongnguyen.io_admin_(iPhone 6_7_8).png">
     <img src="/images/posts/truongnguyen.io_admin_(iPhone 6_7_8) (1).png">
