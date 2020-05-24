@@ -13,16 +13,16 @@ comments: true
 ---
 So far I've been waiting so long for the Netlify CMS to be working on mobile devices so I wrote my own piece of CSS as below. Add it to your Netlify `/admin/index.html` file and below the closing `</body>` tag so it can overwrite the netlify-generated css.
 
-
-
 Screenshots for your reference:
 
-<div class="wrapper wrapper-33">
-  <div class="gallery" data-columns="1">
-    <img src="/images/posts/truongnguyen.io_admin_(iPhone 6_7_8).png">
-    <img src="/images/posts/truongnguyen.io_admin_(iPhone 6_7_8) (1).png">
-    <img src="/images/posts/truongnguyen.io_admin_(iPhone 6_7_8) (2).png">
-    <img src="/images/posts/truongnguyen.io_admin_(iPhone 6_7_8) (3).png">
+<div class="row center-xs">
+  <div class="col-xs-8 col-sm-6 col-md-4 col-lg-3">
+    <div class="gallery" data-columns="1">
+      <img src="/images/posts/truongnguyen.io_admin_(iPhone 6_7_8).png">
+      <img src="/images/posts/truongnguyen.io_admin_(iPhone 6_7_8) (1).png">
+      <img src="/images/posts/truongnguyen.io_admin_(iPhone 6_7_8) (2).png">
+      <img src="/images/posts/truongnguyen.io_admin_(iPhone 6_7_8) (3).png">
+    </div>
   </div>
 </div>
 
