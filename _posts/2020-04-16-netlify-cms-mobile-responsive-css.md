@@ -26,6 +26,10 @@ Screenshots for your reference:
   </div>
 </div>
 
+
+
+As note by Chris in the [comment](#highlighted-post), should you need to update the CSS classname, please follow his instruction.
+
 ```css
 @media (max-width: 799px) {
   .css-u4olba-SidebarContainer-card {
