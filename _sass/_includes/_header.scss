@@ -11,6 +11,10 @@
 .header {
 	margin-top: 40px;
 
+	.wrap {
+		height: 50px;
+	}
+
 	@include mq(tabletp) {
 		margin-top: 50px;
 	}
