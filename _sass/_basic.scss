@@ -307,7 +307,6 @@ hr {
 }
 
 body.loading {
-
 	.loader {
 		opacity: 1;
 		visibility: visible;
@@ -317,14 +316,35 @@ body.loading {
 	.page {
 		opacity: 0;
 		visibility: hidden;
-		@include transition(all 0.4s ease-in-out, transform 0s ease-in-out 0.4s);
-		@include translate(0,20px);
+		@include transition(all 0.4s ease-in-out);
 	}
 
 	.footer {
 		opacity: 0;
 		visibility: hidden;
 		@include transition(all 0.4s ease-in-out);
+	}
+}
+
+.no-js {
+	body.loading {
+		.loader {
+			opacity: 0;
+			visibility: hidden;
+			transition: none;
+		}
+
+		.page {
+			opacity: 1;
+			visibility: visible;
+			transition: none;
+		}
+
+		.footer {
+			opacity: 1;
+			visibility: visible;
+			transition: none;
+		}
 	}
 }
 

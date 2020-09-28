@@ -9,7 +9,7 @@
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Footer
 
 .footer {
-	@include transition(all 0.4s ease-in-out 0.8s);
+	@include transition(all 0.4s ease-in-out 0.4s);
 	padding: 40px 0;
 
 	@include mq(tabletp) {

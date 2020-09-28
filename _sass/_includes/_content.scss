@@ -20,6 +20,12 @@
 
 .content-wrap {
 
+	&::after {
+		content: "";
+		clear: both;
+		display: table;
+	}
+
 	@include mq(tabletp) {
 		max-width: 90%;
 		margin: 0 auto;
