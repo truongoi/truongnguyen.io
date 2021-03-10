@@ -32,7 +32,7 @@ As note by Chris in the [comment](#highlighted-post), should you need to update 
 
 ```css
 @media (max-width: 799px) {
-  .css-u4olba-SidebarContainer-card {
+  div[class$="SidebarContainer-card"] {
     position: static;
     width: 100%;
     margin-bottom: 30px;
