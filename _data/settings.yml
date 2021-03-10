@@ -32,6 +32,7 @@ contact_settings:
   form_action: 'https://formspree.io/xrgawwgw'
   email_subject: 'Hello from truongnguyen.io'
   send_button_text: 'Send Message'
+  recaptcha_key: '6Lc5kXkaAAAAAPy0GBh9claxz9Ia1pdzwt7Y57uX'
 
 social_settings:
   facebook_url:     'http://url.truongnguyen.io/facebook'
