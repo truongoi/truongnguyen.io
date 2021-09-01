@@ -164,4 +164,9 @@
   label.nc-fileUploadButton.css-1fb6kv1-UploadButton-button-default-disabled-button-gray.eljtsap0 {
     margin-left: 0;
   }
+
+  .ep5ukwb0.css-1f3mf5k-StyledModal {
+    width: calc(100% - 60px);
+    height: calc(100% - 60px);
+  }
 }
