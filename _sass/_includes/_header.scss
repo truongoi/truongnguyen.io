@@ -34,7 +34,7 @@
 	max-width: 80%;
 
 	@include mq(tabletp) {
-		float: left;
+		margin: 0 auto;
 		max-width: 50%;
 	}
 }
@@ -79,6 +79,7 @@
 }
 
 .menu__toggle {
+	display: none;
 	position: absolute;
 	z-index: 100;
 	top: 50%;
