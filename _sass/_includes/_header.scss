@@ -29,12 +29,12 @@
 }
 
 .header__logo {
+	margin: 0 auto;
 	display: block;
 	width: $logo-width;
 	max-width: 80%;
 
 	@include mq(tabletp) {
-		margin: 0 auto;
 		max-width: 50%;
 	}
 }

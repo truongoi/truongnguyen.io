@@ -294,6 +294,10 @@ hr {
 ::selection 	 { background: $accent-color; color: $background-color; }
 ::-moz-selection { background: $accent-color; color: $background-color; }
 
+.text-center {
+	text-align: center;
+}
+
 
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Page loading
