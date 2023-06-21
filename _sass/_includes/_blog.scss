@@ -16,7 +16,11 @@
 	position: relative;
 	padding: $grid-spacing/2;
 	float: left;
-	width: 50%;
+	width: 100%;
+
+	@include mq(tabletp) {
+		width: 50%;
+	}
 }
 
 .blog-post__link {
@@ -38,13 +42,11 @@
 .blog-post__image {
 	width: 100%;
 	overflow: hidden;
-	max-height: 140px;
 	position: relative;
 	img {
 		width: 100%;
 		object-fit: cover;
-		max-height: 140px;
-		min-height: 110px;
+		height: 200px;
 	}
 	&::before {
 		display: block;
@@ -58,9 +60,8 @@
 	}
 
 	@include mq(tabletp) {
-		max-height: 440px;
 		img {
-			max-height: 440px;
+			min-height: 400px;
 		}
 		&::before {
 			display: none;
