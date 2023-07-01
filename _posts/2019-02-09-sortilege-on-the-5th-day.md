@@ -1,16 +1,18 @@
 ---
-title: "[vn] Quẻ xăm cho ngày mồng năm"
-description: Mồng 5 năm nay 2019, mình có dịp đi Chùa Ông xin xăm và được gieo
-  cho quẻ xăm số 92.
+title: '[vn] Quẻ xăm cho ngày mồng năm'
+description: >-
+  Mồng 5 năm nay 2019, mình có dịp đi Chùa Ông xin xăm và được gieo cho quẻ xăm
+  số 92.
 featured_image: /images/posts/xin-xam.jpg
-date: 2019-02-09 2 PM:47:08 +0659
+date: 2019-02-09T00:00:00.000Z
 published: true
 comments: true
 ---
 
 Mồng 5 năm nay 2019, mình có dịp đi Chùa Ông xin xăm và được gieo cho quẻ xăm số 92.
 
----
+***
+
 SỐ 092 - HẠ HẠ
 
 **XÂM CHỮ**
@@ -33,7 +35,8 @@ Tô đông pha giải: Trước mắt cầu mưu, nay không như trước, kh�
 Xâm này có hơi xấu, Xâm nói nghĩa bao trùm, nhưng người xin được quẻ này mà nhằm ba tháng cuối năm là tháng 10, 11 và tháng chạp thì tốt lắm, là do câu "Nhứt dương hục hậu thủy an toàn".
 Sự tích: một nhà buôn bán vàng ngọc vì lỗ lã muốn đổi nghề, nhưng dây dưa mãi đến cuối năm mới bán được thạnh lợi, rồi giữ nghề cũ được bình an.
 
-Xâm đúng câu: **_Tiền hung mà hậu kiết._**
+Xâm đúng câu: ***Tiền hung mà hậu kiết.***
 
----
+***
+
 Chỉ muốn ngủ cho tới mùa đông.
