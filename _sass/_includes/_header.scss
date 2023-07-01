@@ -29,7 +29,7 @@
 }
 
 .header__logo {
-	margin: 0 auto;
+	float: left;
 	display: block;
 	width: $logo-width;
 	max-width: 80%;
@@ -79,7 +79,6 @@
 }
 
 .menu__toggle {
-	display: none;
 	position: absolute;
 	z-index: 100;
 	top: 50%;
