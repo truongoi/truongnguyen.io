@@ -2,7 +2,7 @@
 layout: blank
 title: Profile links
 description: This page list all personal links
-featured_image: /images/posts/default.jpg
+featured_image: /images/og-image.jpg
 keywords: links, page
 permalink: /links/
 date: 2020-01-01T23:46:02.658Z

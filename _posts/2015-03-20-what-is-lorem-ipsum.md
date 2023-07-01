@@ -2,7 +2,7 @@
 title: 'What is Lorem Ipsum?'
 description: 'There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain...'
 date: 2015-03-20
-featured_image: /images/posts/default.jpg
+featured_image: /images/og-image.jpg
 published: false
 comments: true
 ---

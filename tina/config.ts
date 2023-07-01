@@ -29,7 +29,7 @@ export default defineConfig({
             // When a new post is created the title field will be set to "New post"
             title: 'New Post',
             description: 'A post from truongnguyen.io blog',
-            featured_image: '/images/posts/default.jpg',
+            featured_image: '/images/og-image.jpg',
             date: new Date().toJSON(),
             published: true,
             comment: true
@@ -38,13 +38,16 @@ export default defineConfig({
         ui: {
           filename: {
             // if disabled, the editor can not edit the filename
-            readonly: true,
+            readonly: false,
             // Example of using a custom slugify function
             slugify: values => {
-              // Values is an object containing all the values of the form. In this case it is {title?: string, topic?: string}
-              return `${values?.date.split('T')[0] ||
-                new Date().toISOString().split('T')[0]}-${values?.title?.toLowerCase().replace(/ /g, '-')}`
-            },
+              const date = new Date();
+              const day = date.getDate();
+              const month = date.getMonth() + 1;
+              const year = date.getFullYear();
+              let currentDate = `${year}-${month}-${day}`;
+              return `${currentDate}-${values?.title?.toLowerCase().replace(/ /g, '-')}`
+            }
           },
         },
         fields: [
@@ -74,6 +77,33 @@ export default defineConfig({
         name: "page",
         label: "Pages",
         path: "_pages",
+        defaultItem: () => {
+          return {
+            // When a new page is created the title field will be set to "New page"
+            layout: 'page',
+            title: 'New Page',
+            description: 'A page from truongnguyen.io blog',
+            featured_image: '/images/og-image.jpg',
+            date: new Date().toJSON(),
+            published: true,
+            comment: true
+          }
+        },
+        ui: {
+          filename: {
+            // if disabled, the editor can not edit the filename
+            readonly: false,
+            // Example of using a custom slugify function
+            slugify: values => {
+              const date = new Date();
+              const day = date.getDate();
+              const month = date.getMonth() + 1;
+              const year = date.getFullYear();
+              let currentDate = `${year}-${month}-${day}`;
+              return `${currentDate}-${values?.title?.toLowerCase().replace(/ /g, '-')}`
+            }
+          },
+        },
         fields: [
           {
             label: "Title",
@@ -82,6 +112,7 @@ export default defineConfig({
             isTitle: true,
             required: true,
           },
+          { label: "Layout type ('default' or 'page')", name: "layout", type: "string" },
           { label: "Description", name: "description", type: "string" },
           { label: "Featured Image", name: "featured_image", type: "image" },
           { label: "Tags", name: "tags", type: "string", list: true },

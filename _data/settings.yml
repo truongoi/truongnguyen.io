@@ -10,14 +10,14 @@ header_settings:
 
 menu_settings:
   menu_items:
-    # - title: 'Blog'
-    #   url: '/blog/'
-    # - title: 'Projects'
-    #   url: '/'
-    # - title: 'About'
-    #   url: '/about'
-    # - title: 'Contact'
-    #   url: '/contact'
+    - title: 'Blog'
+      url: '/blog/'
+    - title: 'Projects'
+      url: '/projects/'
+    - title: 'About'
+      url: '/about'
+    - title: 'Contact'
+      url: '/contact'
 
 footer_settings:
   # logo_image: /images/logo.png

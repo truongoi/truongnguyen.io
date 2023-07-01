@@ -1,7 +1,7 @@
 ---
 title: Privacy Policy
 description: Privacy policy page
-featured_image: /images/posts/default.jpg
+featured_image: /images/og-image.jpg
 keywords: privacy policy, page
 permalink: /privacy-policy/
 date: 2020-01-06T23:46:02.658Z
