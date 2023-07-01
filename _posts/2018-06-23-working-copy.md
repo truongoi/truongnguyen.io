@@ -1,5 +1,5 @@
 ---
-title: "[vn] Working copy"
+title: Working copy
 description: Test bài viết từ Working Copy app trên iPhone
 featured_image: /images/posts/co-ba-cafe.jpeg
 tags:
