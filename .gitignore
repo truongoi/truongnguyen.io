@@ -6,4 +6,3 @@ _site
 *.codekit3
 node_modules
 vendor
-admin/index.html
