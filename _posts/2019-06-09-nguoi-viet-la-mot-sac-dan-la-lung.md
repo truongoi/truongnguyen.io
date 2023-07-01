@@ -1,13 +1,14 @@
 ---
-title: "[vn] Người Việt là một sắc dân lạ lùng"
-description: Sống ở những nơi xa, theo lẽ thường, đồng hương sẽ nâng đỡ nhau lắm.
+title: Người Việt là một sắc dân lạ lùng
+description: 'Sống ở những nơi xa, theo lẽ thường, đồng hương sẽ nâng đỡ nhau lắm.'
 featured_image: /images/posts/vietnam-ruong-bac-thang.jpg
 tags:
   - writing
-date: 2019-07-05 20:01 +0700
+date: 2019-07-05T13:01:00.000Z
 published: true
 comments: true
 ---
+
 Sống ở những nơi xa, theo lẽ thường, đồng hương sẽ nâng đỡ nhau lắm. Bạn nghĩ vậy? Xin thưa, sai với người Việt. Ở cái hợp chủng quốc này, nhìn cách những sắc dân khác đối đãi với nhau, lắm khi bạn sẽ thấy chạnh lòng.
 
 Nếu có việc phải đến cơ quan công quyền, ví như đi phỏng vấn xin thẻ xanh, thi quốc tịch, sát hạch lái xe, xin an sinh xã hội,...mà gặp đồng hương, người Việt sẽ tự rầu trong bụng “lành ít dữ nhiều rồi đây”. Nếu thật may mắn không bị đánh rớt, bạn cũng sẽ bị quần tơi tả với một thái độ rất ư bề trên, trịch thượng. Những sắc dân khác thế nào? Gặp nhau, coi như đậu chắc.
