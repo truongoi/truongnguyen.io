@@ -1,5 +1,5 @@
 ---
-title: '[vn] Quẻ xăm cho ngày mồng năm'
+title: Quẻ xăm cho ngày mồng năm
 description: >-
   Mồng 5 năm nay 2019, mình có dịp đi Chùa Ông xin xăm và được gieo cho quẻ xăm
   số 92.
