@@ -15,13 +15,13 @@ site: TruongNguyen.io
 collections:
   pages:
     output: true
-    permalink: /:name
+    permalink: /:name/
   posts:
     output: true
-    permalink: /blog/:slug
+    permalink: /blog/:slug/
   projects:
     output: true
-    permalink: /projects/:slug
+    permalink: /projects/:slug/
 
 defaults:
   -
