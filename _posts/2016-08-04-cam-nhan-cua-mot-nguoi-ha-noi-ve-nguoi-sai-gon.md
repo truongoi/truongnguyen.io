@@ -27,7 +27,7 @@ Tôi bước chân xuống Tân Sơn Nhất lần đầu cũng đã lâu. Đi ta
 
 **Người Sài Gòn** không có khái niệm đại gia hay đẳng cấp. Một ông chủ đi mẹc cũng vẫn ngồi vỉa hè ăn, nhậu chứ không cần phải thể hiện đẳng cấp đại gia. Những chàng trai, cô gái sành điệu vẫn ăn hàng cùng với những người lao động chứ không phân bì. Miễn là đủ tiền để trả không có người ta đánh cho nhừ xương.
 
-**Người Sài Gòn** có món nhậu, vui cũng nhậu, buồn cũng nhậu, có tiền cũng nhậu, hết tiền càng phải nhậu. Giầu thì uống rượu Tây, bình dân thì Ken, Sài Gòn đỏ, Tiger (chỉ dành cho những ông già tầm 60 -bữa nào kể cho nghe ), nghèo thì Ngọc Dương, Chuối Hột và vài trái xoài.
+**Người Sài Gòn** có món nhậu, vui cũng nhậu, buồn cũng nhậu, có tiền cũng nhậu, hết tiền càng phải nhậu. Giầu thì uống rượu Tây, bình dân thì Ken, Sài Gòn đỏ, Tiger (chỉ dành cho những ông già tầm 60 -bữa nào kể cho nghe), nghèo thì Ngọc Dương, Chuối Hột và vài trái xoài.
 
 **Người Sài Gòn** không nhậu trưa, chỉ có nhậu từ tối – đêm – sáng. Dân nhậu có câu “Tình thương mến thương”, thấy bàn bên cạnh có anh chàng nói chuyện vui, sang cụng cái, bàn bên kia có cô bé dễ thương đi một mình sang cụng một cái. Cụng qua cụng lại một lúc lại sắp vài bàn vào làm một. Zô là zô là zô là zô. Nhiều người cứ nghĩ rằng nhậu nhẹt ở Sài Gòn là bê tha – người Sài Gòn không thế. Nhậu là chia sẻ, là giải tỏa những gì còn đọng trong ngày, có chút hơi men uống vào cho quên. Sáng dậy lại hòa mình vào cuộc sống và quên đi những chuyện cũ.
 

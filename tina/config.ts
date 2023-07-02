@@ -51,26 +51,16 @@ export default defineConfig({
           },
         },
         fields: [
-          {
-            type: "string",
-            name: "title",
-            label: "Title",
-            isTitle: true,
-            required: true,
-          },
+          { label: "Title", name: "title", type: "string", isTitle: true, required: true, },
+          { label: "Subtitle", name: "subtitle", type: "string" },
           { label: "Description", name: "description", type: "string" },
           { label: "Featured Image", name: "featured_image", type: "image" },
           { label: "Tags", name: "tags", type: "string", list: true },
           { label: "Link", name: "permalink", type: "string", required: false },
           { label: "Publish Date", name: "date", type: "datetime" },
           { label: "Publish?", name: "published", type: "boolean", required: false },
-          {label: "Enable comments?", name: "comments", type: "boolean"},
-          {
-            type: "rich-text",
-            name: "body",
-            label: "Body",
-            isBody: true,
-          },
+          { label: "Enable comments?", name: "comments", type: "boolean"},
+          { label: "Body", name: "body", type: "rich-text", isBody: true },
         ],
       },
       {
@@ -105,27 +95,60 @@ export default defineConfig({
           },
         },
         fields: [
-          {
-            label: "Title",
-            name: "title",
-            type: "string",
-            isTitle: true,
-            required: true,
-          },
-          { label: "Layout type ('default' or 'page')", name: "layout", type: "string" },
+          { label: "Title", name: "title", type: "string", isTitle: true, required: true, },
+          { label: "Subtitle", name: "subtitle", type: "string" },
           { label: "Description", name: "description", type: "string" },
           { label: "Featured Image", name: "featured_image", type: "image" },
           { label: "Tags", name: "tags", type: "string", list: true },
           { label: "Link", name: "permalink", type: "string", required: false },
           { label: "Publish Date", name: "date", type: "datetime" },
           { label: "Publish?", name: "published", type: "boolean", required: false },
-          {label: "Enable comments?", name: "comments", type: "boolean"},
-          {
-            type: "rich-text",
-            name: "body",
-            label: "Body",
-            isBody: true,
+          { label: "Enable comments?", name: "comments", type: "boolean"},
+          { label: "Body", name: "body", type: "rich-text", isBody: true },
+        ]
+      },
+      {
+        name: "project",
+        label: "Projects",
+        path: "_projects",
+        defaultItem: () => {
+          return {
+            // When a new project is created the title field will be set to "New project"
+            layout: 'project',
+            title: 'New Project',
+            description: 'A project from truongnguyen.io blog',
+            featured_image: '/images/og-image.jpg',
+            date: new Date().toJSON(),
+            published: true,
+            comment: true
+          }
+        },
+        ui: {
+          filename: {
+            // if disabled, the editor can not edit the filename
+            readonly: false,
+            // Example of using a custom slugify function
+            slugify: values => {
+              const date = new Date();
+              const day = date.getDate();
+              const month = date.getMonth() + 1;
+              const year = date.getFullYear();
+              let currentDate = `${year}-${month}-${day}`;
+              return `${currentDate}-${values?.title?.toLowerCase().replace(/ /g, '-')}`
+            }
           },
+        },
+        fields: [
+          { label: "Title", name: "title", type: "string", isTitle: true, required: true, },
+          { label: "Subtitle", name: "subtitle", type: "string" },
+          { label: "Description", name: "description", type: "string" },
+          { label: "Featured Image", name: "featured_image", type: "image" },
+          { label: "Tags", name: "tags", type: "string", list: true },
+          { label: "Link", name: "permalink", type: "string", required: false },
+          { label: "Publish Date", name: "date", type: "datetime" },
+          { label: "Publish?", name: "published", type: "boolean", required: false },
+          { label: "Enable comments?", name: "comments", type: "boolean"},
+          { label: "Body", name: "body", type: "rich-text", isBody: true },
         ]
       }
     ],

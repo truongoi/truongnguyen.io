@@ -1,10 +1,12 @@
 ---
-title: 'Demo Project'
-subtitle: 'This is a demo'
-date: 2010-01-01 00:00:00
-description: This page is a demo that shows everything you can do inside portfolio and blog posts.
-featured_image: '/images/demo/demo-square.jpg'
-published: false
+title: Demo Project
+subtitle: This is a demo
+date: 2010-01-01T00:00:00.000Z
+description: >-
+  This page is a demo that shows everything you can do inside portfolio and blog
+  posts.
+featured_image: /images/demo/demo-square.jpg
+published: true
 ---
 
 ![](/images/demo/demo-landscape.jpg)
@@ -43,7 +45,7 @@ The theme also supports markdown tables:
 
 You can throw in some horizontal rules too:
 
----
+***
 
 ### Image galleries
 
@@ -71,7 +73,7 @@ Inspired by the Galleries feature from WordPress, we've made it easy to create g
 
 Change the number inside the 'columns' setting to create different types of gallery for all kinds of purposes. You can even click on each image to seamlessly enlarge it on the page.
 
----
+***
 
 ### Image carousels
 
@@ -90,7 +92,7 @@ Videos are an awesome way to show off your work in a more engaging and personal 
 
 <iframe src="https://player.vimeo.com/video/148003889" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 
----
+***
 
 ## Pretty cool, huh?
 

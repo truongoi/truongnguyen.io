@@ -8,19 +8,11 @@
 	padding: 0 calc($grid-spacing/2);
 }
 
-.blog-wrap {
-
-}
-
 .blog-post {
 	position: relative;
 	padding: calc($grid-spacing/2);
 	float: left;
-	width: 100%;
-
-	@include mq(tabletp) {
-		width: 50%;
-	}
+	width: 50%;
 }
 
 .blog-post__link {
@@ -30,7 +22,6 @@
 	@include mq(tabletl) {
 
 		&:hover {
-
 			.blog-post__content {
 				opacity: 1;
 				visibility: visible;
@@ -43,11 +34,11 @@
 	width: 100%;
 	overflow: hidden;
 	position: relative;
+
 	img {
 		width: 100%;
-		object-fit: cover;
-		height: 200px;
 	}
+
 	&::before {
 		display: block;
 		content: '';
@@ -57,15 +48,6 @@
 		width: 100%;
 		height: 100%;
 		background: rgba(0, 0, 0, 0.35);
-	}
-
-	@include mq(tabletp) {
-		img {
-			min-height: 400px;
-		}
-		&::before {
-			display: none;
-		}
 	}
 }
 
@@ -80,7 +62,8 @@
 	background: rgba(0, 0, 0, 0.7);
 	background: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.4) 40%, transparent 100%);
 
-	@include mq(tabletp) {
+	@include mq(laptop) {
+		width: 100%;
 		height: 100%;
 		align-items: center;
 		justify-content: center;
@@ -93,28 +76,32 @@
 
 .blog-post__info {
 	text-align: center;
+	width: 100%;
 }
 
 .blog-post__title {
 	text-align: left;
-	padding: 10px 10px 0;
+	padding: 10px;
 	color: $overlay-text-color;
 	font-size: $grid-item-title-small;
 	font-weight: $grid-item-title-weight;
 	letter-spacing: $grid-item-title-spacing;
 
 	@include mq(tabletp) {
-		text-align: center;
-		padding: 0 30px;
 		font-size: $grid-item-title-medium;
 	}
 
 	@include mq(laptop) {
+		text-align: center;
+		margin: 0 auto;
+		max-width: 70%;
+		padding: 0 30px;
 		font-size: $grid-item-title-large;
 	}
 }
 
 .blog-post__subtitle {
+	display: none;
 	text-align: left;
 	margin-top: 0;
 	padding: 0 10px 5px;
@@ -124,13 +111,14 @@
 	letter-spacing: $grid-item-subtitle-spacing;
 
 	@include mq(tabletp) {
-		text-align: center;
-		margin-top: 5px;
-		padding: 0;
 		font-size: $grid-item-subtitle-medium;
 	}
 
 	@include mq(laptop) {
+		display: block;
+		text-align: center;
+		margin-top: 5px;
+		padding: 0;
 		font-size: $grid-item-subtitle-large;
 	}
 }
