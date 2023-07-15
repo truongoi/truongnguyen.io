@@ -1,9 +1,10 @@
 ---
 title: Typical weekend with my kid
-description: A post from truongnguyen.io blog
+description: Summer 2023
 featured_image: /images/posts/IMG_2151.jpeg
 date: 2023-07-15T03:04:28.747Z
 published: true
+comments: true
 ---
 
 Current work contract has come to an end and this means I have a little time to visit my little family while in the hunt for new stable full time job.
