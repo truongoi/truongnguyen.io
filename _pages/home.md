@@ -3,7 +3,7 @@ title: Home
 description: Homepage description goes here
 featured_image: /images/posts/0C00FE92-34C2-4DF2-99ED-C686A3CDD095.jpeg
 permalink: /
-published: true
+published: false
 layout: home
 ---
 

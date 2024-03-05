@@ -18,10 +18,10 @@ collections:
     permalink: /:name/
   posts:
     output: true
-    permalink: /blog/:slug/
+    permalink: /p/:slug/
   projects:
     output: true
-    permalink: /project/:slug/
+    permalink: /prj/:slug/
 
 defaults:
   -
