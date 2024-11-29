@@ -1,7 +1,7 @@
 ---
 title: Goodbye truongnguyen.io
 description: A post from truongnguyen.io blog
-featured_image: /images/og-image.jpg
+featured_image: /images/posts/images/og-image.jpg
 date: 2024-11-29T07:23:04.850Z
 published: true
 ---
